@@ -24,6 +24,12 @@ Eg..
 Ie. starting with a slash: `/`.
 These work reliably on GitHub and NPM.
 
+## Related Info
+
+* How we handle [doc links in the Keystone Monorepo](https://github.com/keystonejs/keystone/issues/2041#issuecomment-566802733)
+* Also the [Keystone Style Guile on Links](https://github.com/keystonejs/keystone/blob/master/STYLE_GUIDE.md#links)
+* NPM [`package.json` repo section docs](https://docs.npmjs.com/files/package.json.html#repository)
+
 ## Test Links
 
 You're currently reading the Repo README, available at:
