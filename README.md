@@ -2,19 +2,41 @@
 
 Probing the intersection of monorepo packages, Markdown, Github and doc URLs.
 
-## Links
+## TL;DR
+
+**Configure your `package.json` [correctly](https://docs.npmjs.com/files/package.json.html#repository)**
+
+* Your `repository.url` should point to the _root_ of your repo
+* Use the `repository.directory` prop to specify the path to the package
+
+Eg..
+
+```js
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/molomby/package-doc-url-testing.git",
+    "directory": "packages/not-a-real-package"
+  }
+```
+
+**When linking to other docs, use URLs relative to the repo root**
+
+Ie. starting with a slash: `/`.
+These work reliably on GitHub and NPM.
+
+## Test Links
 
 You're currently reading the Repo README, available at:
 
-* [A relative path](README.md)
-* [An path absolute to the repo root](/README.md)
+* [Relative to this file](README.md)
+* [Relative to the repo root](/README.md)
 
 We have a package you should check out at either:
 
-* [A relative path](packages/not-a-real-package/README.md)
-* [An path absolute to the repo root](/packages/not-a-real-package/README.md)
+* [Relative to this file](packages/not-a-real-package/README.md)
+* [Relative to the repo root](/packages/not-a-real-package/README.md)
 
 See also the the other doc at:
 
-* [A relative path](OTHER_DOC.md)
-* [An path absolute to the repo root](/OTHER_DOC.md)
+* [Relative to this file](OTHER_DOC.md)
+* [Relative to the repo root](/OTHER_DOC.md)
