@@ -1,6 +1,6 @@
 {
   "name": "@molomby/not-a-real-package",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Testing things",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,6 @@
     "type" : "git",
     "url" : "https://github.com/molomby/package-doc-url-testing.git",
     "directory": "packages/not-a-real-package"
-  }
+  },
+  "homepage": "https://doc.not-a-real-package.com"
 }
-
