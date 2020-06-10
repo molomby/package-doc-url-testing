@@ -8,7 +8,7 @@ When Markdown files are added to a monorepo, the links need to make sense on the
 Getting this all working at the same time isn't trivial.
 
 This repo sets up a super-simple package with links using different URL formulations.
-Look at [the code](/raw/HEAD/packages/not-a-real-package/README.md),
+Look at [the code](/packages/not-a-real-package/README.md),
 then see what the package looks like when it's [published on NPM](https://www.npmjs.com/package/@molomby/not-a-real-package).
 
 ## TL;DR
